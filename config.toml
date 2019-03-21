@@ -19,23 +19,19 @@ theme = "hugo-hero-theme"
     meta_twitter_creator = "@zerostaticio"
 
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
+	name = "Overview"
+	url = "/Overview/"
     weight = 1
 
 [[menu.main]]
-    name = "Work"
+    name = "Documentation"
     url = "/work/"
     weight = 2
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
 
 [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
+    name = "Github"
+    url = "https://github.com/ligato"
     weight = 4
 
 [permalinks]

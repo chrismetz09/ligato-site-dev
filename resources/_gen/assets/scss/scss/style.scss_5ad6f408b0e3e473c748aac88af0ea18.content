@@ -6013,8 +6013,8 @@ ul.social {
 .hero-image {
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: overlay;
-  background-color: green;
+  background-color: blue;
+  background-image: linear-gradient(to left, #00638e, #003655 70%);
   height: 400px;
   position: relative;
   padding-top: 60px; }
@@ -6064,7 +6064,7 @@ ul.social {
   height: 460px; }
 
 .hero-image-blend-overlay {
-  background-blend-mode: overlay; }
+  background-blend-mode: lighten; }
 
 .bg-contain {
   background-size: contain; }

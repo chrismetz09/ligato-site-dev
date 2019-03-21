@@ -2,9 +2,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   // background-position: top center;
-  background-blend-mode: overlay;
+  //background-blend-mode: overlay;
   // background-color for banners
-  background-color: green;
+  background-color: blue;
+  //background-color: linear-gradient(to left, #00638e, #003655 70%);
+  //background: linear-gradient(to left, #00638e, #003655 70%);
+  background-image: linear-gradient(to left, #00638e, #003655 70%);
   height: 400px;
   position: relative;
   padding-top: 60px;
@@ -63,5 +66,5 @@
   height: 460px;
 }
 .hero-image-blend-overlay {
-  background-blend-mode: overlay;
+  background-blend-mode: lighten;
 }
